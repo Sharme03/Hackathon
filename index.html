@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make beauty</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"defer></script>
+</head>
+<body>
+
+    <!-- <div class="backdrop"></div> -->
+    <h1 class="heading">Make beauty</h1>
+    <!-- <div id="navbar"></div>
+    <div class="container1"></div> -->
+
+    <h3><a class="home-button" href="/">home</a></h3>
+    <div>
+    <input type="text" name="" id="text"><br>
+    <button onclick="foo()">Click Me</button>
+    </div>
+    
+    <!-- <section id="header">
+        <a href="#"><img src="image/logo1.png" class="logo" alt=""></a> 
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="cart.html"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </div>
+    </section> -->
+
+    <section id="product1" class="section-p1">
+        <h2>Products</h2>
+        <p>Skincare is an important part of selfcare </p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="https://img.freepik.com/premium-vector/face-compact-makeup-powder-face-highlighter-with-brush-realistic-cosmetic-powder-black-round-plastic-case-with-mirror-isolated-white-background-3d-vector-illustration_341509-3016.jpg?w=2000" alt="">
+                <div class="des">
+                    <span>Compact</span>
+                    <h5>face highlighter</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h8>$70</h8>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="https://m.media-amazon.com/images/I/71pV9WO1XrL._SL1500_.jpg" alt="">
+                <div class="des">
+                    <span>Lip Stick</span>
+                    <h5>Long lasting lip stick</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h8>$30</h8>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="data:image/jpeg;base64,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" alt="">
+                <div class="des">
+                    <span>Toner</span>
+                    <h5>Green apple face mist</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h8>$40</h8>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="https://www.paccosmetics.com/wp-content/uploads/2020/03/FCMC_TOTCLNRMOVR.main_.jpg" alt="">
+                <div class="des">
+                    <span>Cleanser</span>
+                    <h5>Clean lip & eye makeup remover</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h8>$50</h8>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="https://www.bigbasket.com/media/uploads/p/l/40172543_4-beautiful-show-2-in-1-makeupcosmetic-brush-black-bb1210.jpg" alt="">
+                <div class="des">
+                    <span>Brush</span>
+                    <h5>Makeup/cosmetic brush</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h8>$10</h8>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="https://m.media-amazon.com/images/I/5101qjYR2EL._SL1000_.jpg" alt="">
+                <div class="des">
+                    <span>Eye shadow</span>
+                    <h5>Easily Blendable Eye makeup Palette</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h8>$60</h8>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="https://img.fruugo.com/product/4/19/140665194_max.jpg" alt="">
+                <div class="des">
+                    <span>Lip gloss</span>
+                    <h5>Long lasting waterproof</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h8>$60</h8>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="https://m.media-amazon.com/images/I/71LNJzdEVVL._SY355_.jpg" alt="">
+                <div class="des">
+                    <span>Eye Mascara</span>
+                    <h5>Black eye makeup</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h8>$60</h8>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+    
+</body>
+</html>
