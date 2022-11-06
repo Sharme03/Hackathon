@@ -176,10 +176,10 @@ async function foo() {
   console.log(final);
 
   for (var i = 0; i < final.length; i++) {
-    let ele = document.createElement("div1");
+    let ele = document.createElement("div");
     ele.setAttribute("id", "data");
     ele.setAttribute("class", "data");
-    ele.innerHTML = `brand:${final[i].brand} name:${final[i].name} price:${final[i].price} price_sign:${final[i].price_sign} image_link:${final[i].image_link} product_link:${final[i].product_link} heading:${final[i].heading} product_type:${final[i].product_type}`;
+    ele.innerHTML = `brand:${final[i].brand} name:${final[i].name} price:${final[i].price} price_sign:${final[i].price_sign} image_link:${final[i].image_link} product_link:${final[i].product_link} description:${final[i].description} product_type:${final[i].product_type}`;
     document.body.append(ele);
   }
 }
